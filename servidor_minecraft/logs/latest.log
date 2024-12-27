@@ -333,3 +333,6 @@
 [27Dec2024 19:48:02.634] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mprinxipe: Set own game mode to Survival Mode]
 [27Dec2024 19:48:33.055] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mprinxipe: Set own game mode to Creative Mode]
 [27Dec2024 19:53:29.380] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mprinxipe has made the advancement [Monster Hunter]
+[27Dec2024 20:00:45.082] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mprinxipe lost connection: Timed out
+[27Dec2024 20:00:45.083] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mprinxipe left the game
+[27Dec2024 20:03:14.192] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Punchlinee has made the advancement [Acquire Hardware]
