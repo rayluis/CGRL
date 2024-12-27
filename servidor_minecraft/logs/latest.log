@@ -336,3 +336,30 @@
 [27Dec2024 20:00:45.082] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mprinxipe lost connection: Timed out
 [27Dec2024 20:00:45.083] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mprinxipe left the game
 [27Dec2024 20:03:14.192] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Punchlinee has made the advancement [Acquire Hardware]
+[27Dec2024 20:03:59.459] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Mprinxipe[/127.85.160.164:56937] logged in with entity id 9642 at (-81.15511755946049, 65.5564868875536, 63.217803434567195)
+[27Dec2024 20:03:59.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mprinxipe joined the game
+[27Dec2024 20:04:29.532] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mprinxipe lost connection: Timed out
+[27Dec2024 20:04:29.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mprinxipe left the game
+[27Dec2024 20:05:09.596] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Mprinxipe[/127.85.160.164:35469] logged in with entity id 9781 at (-81.15511755946049, 65.5564868875536, 63.217803434567195)
+[27Dec2024 20:05:09.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mprinxipe joined the game
+[27Dec2024 20:05:39.683] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mprinxipe lost connection: Timed out
+[27Dec2024 20:05:39.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mprinxipe left the game
+[27Dec2024 20:06:15.739] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Mprinxipe[/127.85.160.164:53101] logged in with entity id 9914 at (-81.15511755946049, 65.5564868875536, 63.217803434567195)
+[27Dec2024 20:06:15.751] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mprinxipe joined the game
+[27Dec2024 20:06:44.941] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mprinxipe has made the advancement [Acquire Hardware]
+[27Dec2024 20:08:25.085] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mprinxipe lost connection: Disconnected
+[27Dec2024 20:08:25.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mprinxipe left the game
+[27Dec2024 20:08:41.033] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Punchlinee lost connection: Disconnected
+[27Dec2024 20:08:41.033] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Punchlinee left the game
+[27Dec2024 20:08:53.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[27Dec2024 20:08:53.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[27Dec2024 20:08:53.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[27Dec2024 20:08:53.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[27Dec2024 20:08:54.380] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[27Dec2024 20:08:54.989] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[27Dec2024 20:08:54.990] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[27Dec2024 20:08:55.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[27Dec2024 20:08:55.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[27Dec2024 20:08:55.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[27Dec2024 20:08:55.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[27Dec2024 20:08:55.023] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
