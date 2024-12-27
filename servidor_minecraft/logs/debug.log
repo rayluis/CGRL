@@ -2359,3 +2359,13 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [27Dec2024 19:38:45.494] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [27Dec2024 19:38:45.501] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [27Dec2024 19:39:50.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Punchlinee: Set the time to 1000]
+[27Dec2024 19:43:45.495] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[27Dec2024 19:43:45.502] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[27Dec2024 19:44:26.131] [Server thread/DEBUG] [mixin/]: Mixing boat.VanillaInventoryCodeHooksMixin from securitycraft.mixins.json into net.minecraftforge.items.VanillaInventoryCodeHooks
+[27Dec2024 19:44:26.132] [Server thread/DEBUG] [mixin/]: Renaming synthetic method lambda$securitycraft$callGetCapabilityForSecuritySeaBoat$0(Lnet/geforcemods/securitycraft/entity/SecuritySeaBoat;Lnet/minecraftforge/items/IItemHandler;)Lorg/apache/commons/lang3/tuple/Pair; to md30d31e$lambda$securitycraft$callGetCapabilityForSecuritySeaBoat$0$0 in securitycraft.mixins.json:boat.VanillaInventoryCodeHooksMixin
+[27Dec2024 19:44:46.785] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mprinxipe has made the advancement [Hot Stuff]
+[27Dec2024 19:48:02.634] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mprinxipe: Set own game mode to Survival Mode]
+[27Dec2024 19:48:33.055] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mprinxipe: Set own game mode to Creative Mode]
+[27Dec2024 19:48:45.502] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[27Dec2024 19:48:45.508] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[27Dec2024 19:53:29.380] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mprinxipe has made the advancement [Monster Hunter]
