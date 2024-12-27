@@ -215,6 +215,12 @@
     },
     "done": true
   },
+  "travelersbackpack:recipes/misc/bat_smithing": {
+    "criteria": {
+      "has_bat": "2024-12-27 19:33:12 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/bamboo_raft": {
     "criteria": {
       "in_water": "2024-12-27 19:08:55 +0000"

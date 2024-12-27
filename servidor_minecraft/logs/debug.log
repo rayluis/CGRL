@@ -2352,3 +2352,10 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [27Dec2024 19:28:45.495] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [27Dec2024 19:28:45.507] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [27Dec2024 19:29:44.211] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Punchlinee: Set the time to 1000]
+[27Dec2024 19:33:45.497] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[27Dec2024 19:33:45.506] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[27Dec2024 19:34:08.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made Mprinxipe a server operator
+[27Dec2024 19:34:14.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mprinxipe: Set own game mode to Creative Mode]
+[27Dec2024 19:38:45.494] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[27Dec2024 19:38:45.501] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[27Dec2024 19:39:50.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Punchlinee: Set the time to 1000]

@@ -186,5 +186,11 @@
     },
     "done": true
   },
+  "travelersbackpack:recipes/misc/bat_smithing": {
+    "criteria": {
+      "has_bat": "2024-12-27 19:33:05 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
