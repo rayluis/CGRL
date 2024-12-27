@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "uuid": "2fe5e8cd-cc6d-3c0c-8ae1-8eec77b26ffa",
+    "name": "Punchlinee",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "14bad63d-8c2e-3608-bdd5-fc86f66b687b",
+    "name": "punchilinee",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

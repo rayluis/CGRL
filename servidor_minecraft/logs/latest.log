@@ -312,3 +312,15 @@
 [27Dec2024 18:53:45.524] [Server thread/INFO] [journeymap/]: minecraft~the_nether (Valid) Creating config file: ./journeymap/server/5.10/journeymap.server.minecraft~the_nether.config
 [27Dec2024 18:57:02.860] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Punchlinee[/127.109.108.53:57261] logged in with entity id 162 at (8.5, 76.0, -20.5)
 [27Dec2024 18:57:02.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Punchlinee joined the game
+[27Dec2024 19:05:44.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made punchilinee a server operator
+[27Dec2024 19:06:10.692] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Mprinxipe[/127.85.160.164:39309] logged in with entity id 1364 at (9.5, 73.0, -9.5)
+[27Dec2024 19:06:10.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mprinxipe joined the game
+[27Dec2024 19:08:33.731] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Punchlinee lost connection: Disconnected
+[27Dec2024 19:08:33.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Punchlinee left the game
+[27Dec2024 19:08:51.836] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@2e6ae030[id=<null>,name=Punchlinee,properties={},legacy=false] (/127.109.108.53:41513) lost connection: Disconnected
+[27Dec2024 19:09:20.180] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@a9d91e9[id=<null>,name=Punchlinee,properties={},legacy=false] (/127.109.108.53:59961) lost connection: Disconnected
+[27Dec2024 19:09:24.697] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Punchlinee[/127.109.108.53:55557] logged in with entity id 1822 at (6.815874348124614, 64.0, 9.10669968632654)
+[27Dec2024 19:09:24.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Punchlinee joined the game
+[27Dec2024 19:09:43.837] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made Punchlinee a server operator
+[27Dec2024 19:09:57.870] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Punchlinee: Set own game mode to Creative Mode]
+[27Dec2024 19:10:05.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Punchlinee: Set the time to 1000]
