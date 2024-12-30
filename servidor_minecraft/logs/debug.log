@@ -2984,3 +2984,9 @@ com.google.gson.JsonSyntaxException: Missing pack_format, expected to find a Int
 [30Dec2024 19:16:14.205] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [30Dec2024 19:20:03.639] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Punchlinee: Set the time to 1000]
 [30Dec2024 19:20:14.871] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Nitwit'/101, l='ServerLevel[world]', x=445.95, y=64.06, z=43.81] died, message: 'Nitwit was slain by Zombie'
+[30Dec2024 19:20:52.971] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fletcher'/103, l='ServerLevel[world]', x=446.40, y=64.00, z=62.83] died, message: 'Fletcher was slain by Zombie'
+[30Dec2024 19:21:14.175] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[30Dec2024 19:21:14.253] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[30Dec2024 19:24:51.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Punchlinee has made the advancement [Enchanter]
+[30Dec2024 19:26:14.155] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[30Dec2024 19:26:14.163] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world

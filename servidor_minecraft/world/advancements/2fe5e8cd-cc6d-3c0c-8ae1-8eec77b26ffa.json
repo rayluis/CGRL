@@ -2094,5 +2094,17 @@
     },
     "done": true
   },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2024-12-30 19:24:51 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/cactus_smithing": {
+    "criteria": {
+      "has_cactus": "2024-12-30 19:21:13 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

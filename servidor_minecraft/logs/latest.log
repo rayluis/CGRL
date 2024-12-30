@@ -346,3 +346,5 @@ com.google.gson.JsonSyntaxException: Missing pack_format, expected to find a Int
 [30Dec2024 19:15:34.206] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2850ms or 57 ticks behind
 [30Dec2024 19:20:03.639] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Punchlinee: Set the time to 1000]
 [30Dec2024 19:20:14.871] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Nitwit'/101, l='ServerLevel[world]', x=445.95, y=64.06, z=43.81] died, message: 'Nitwit was slain by Zombie'
+[30Dec2024 19:20:52.971] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fletcher'/103, l='ServerLevel[world]', x=446.40, y=64.00, z=62.83] died, message: 'Fletcher was slain by Zombie'
+[30Dec2024 19:24:51.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Punchlinee has made the advancement [Enchanter]
