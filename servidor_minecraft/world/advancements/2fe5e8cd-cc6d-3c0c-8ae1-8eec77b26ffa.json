@@ -2334,6 +2334,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/decorations/warped_cabinet": {
+    "criteria": {
+      "has_warped_trapdoor": "2024-12-30 22:42:31 +0000"
+    },
+    "done": true
+  },
   "ironchest:recipes/decorations/upgrades/diamond_to_crystal_chest_upgrade": {
     "criteria": {
       "has_glass": "2024-12-30 22:22:25 +0000"
