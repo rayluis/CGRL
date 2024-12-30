@@ -350,3 +350,6 @@ com.google.gson.JsonSyntaxException: Missing pack_format, expected to find a Int
 [30Dec2024 19:24:51.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Punchlinee has made the advancement [Enchanter]
 [30Dec2024 19:40:47.617] [Netty Epoll Server IO #0/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [structure_gel:main,securitycraft:securitycraft,minecraft:treechop-channel,pehkui:main,ironchest:network,geckolib:main,waystones:network] rejected vanilla connections
 [30Dec2024 19:40:47.618] [Netty Epoll Server IO #0/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: [/127.33.151.133:60995] Disconnecting VANILLA connection attempt: This server has mods that require Forge to be installed on the client. Contact your server admin for more details.
+[30Dec2024 19:44:55.635] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: TheSandman01RD[/127.33.151.133:53811] logged in with entity id 4628 at (306.80558389048014, 68.0, -91.35674354169201)
+[30Dec2024 19:44:55.695] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheSandman01RD joined the game
+[30Dec2024 19:44:56.596] [Server thread/ERROR] [net.threetag.palladium.Palladium/]: Was not able to read user's supporter data! (8f2bfe34-ed28-33ed-9a2d-86020fbb38f9)
