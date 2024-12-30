@@ -369,3 +369,15 @@ com.google.gson.JsonSyntaxException: Missing pack_format, expected to find a Int
 [30Dec2024 20:13:21.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheSandman01RD: Set own game mode to Creative Mode]
 [30Dec2024 20:56:15.539] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheSandman01RD: Set own game mode to Survival Mode]
 [30Dec2024 20:56:17.540] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheSandman01RD: Set own game mode to Creative Mode]
+[30Dec2024 21:27:47.984] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheSandman01RD: Set own game mode to Spectator Mode]
+[30Dec2024 21:27:59.227] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheSandman01RD: Set own game mode to Creative Mode]
+[30Dec2024 21:31:10.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheSandman01RD: Set own game mode to Spectator Mode]
+[30Dec2024 21:31:46.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheSandman01RD: Set own game mode to Creative Mode]
+[30Dec2024 21:34:14.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheSandman01RD: Set own game mode to Spectator Mode]
+[30Dec2024 21:34:22.088] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheSandman01RD: Set own game mode to Creative Mode]
+[30Dec2024 21:36:51.634] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Mprinxipe[/127.85.160.164:54897] logged in with entity id 29618 at (300.3167165291255, 68.0, -87.92258343442305)
+[30Dec2024 21:36:51.662] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mprinxipe joined the game
+[30Dec2024 21:36:52.393] [Server thread/ERROR] [net.threetag.palladium.Palladium/]: Was not able to read user's supporter data! (acbe0c12-0d0b-379b-8395-73ba07ba024c)
+[30Dec2024 21:39:31.388] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheSandman01RD: Set own game mode to Survival Mode]
+[30Dec2024 21:41:22.045] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mprinxipe lost connection: Timed out
+[30Dec2024 21:41:22.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mprinxipe left the game

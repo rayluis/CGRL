@@ -3294,21 +3294,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stripped_birch_wood": {
+    "criteria": {
+      "has_log": "2024-12-28 02:58:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2024-12-28 02:58:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_planks": {
+    "criteria": {
+      "has_logs": "2024-12-28 02:58:24 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/lime_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2024-12-28 03:03:20 +0000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/misc/orange_lens": {
-    "criteria": {
-      "has_glass_pane": "2024-12-28 03:03:24 +0000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/misc/lime_lens": {
-    "criteria": {
-      "has_glass_pane": "2024-12-28 03:03:24 +0000"
     },
     "done": true
   },
@@ -3324,33 +3330,9 @@
     },
     "done": true
   },
-  "securitycraft:recipes/misc/cyan_lens": {
-    "criteria": {
-      "has_glass_pane": "2024-12-28 03:03:24 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/light_gray_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2024-12-28 03:03:20 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stripped_birch_wood": {
-    "criteria": {
-      "has_log": "2024-12-28 02:58:24 +0000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/misc/purple_lens": {
-    "criteria": {
-      "has_glass_pane": "2024-12-28 03:03:24 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/birch_hanging_sign": {
-    "criteria": {
-      "has_stripped_logs": "2024-12-28 02:58:24 +0000"
     },
     "done": true
   },
@@ -3366,33 +3348,9 @@
     },
     "done": true
   },
-  "securitycraft:recipes/misc/light_blue_lens": {
-    "criteria": {
-      "has_glass_pane": "2024-12-28 03:03:24 +0000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/misc/brown_lens": {
-    "criteria": {
-      "has_glass_pane": "2024-12-28 03:03:24 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/green_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2024-12-28 03:03:20 +0000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/misc/gray_lens": {
-    "criteria": {
-      "has_glass_pane": "2024-12-28 03:03:24 +0000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/misc/yellow_lens": {
-    "criteria": {
-      "has_glass_pane": "2024-12-28 03:03:24 +0000"
     },
     "done": true
   },
@@ -3414,30 +3372,6 @@
     },
     "done": true
   },
-  "securitycraft:recipes/misc/blue_lens": {
-    "criteria": {
-      "has_glass_pane": "2024-12-28 03:03:24 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/decorations/spruce_cabinet": {
-    "criteria": {
-      "has_spruce_trapdoor": "2024-12-28 04:04:07 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/birch_planks": {
-    "criteria": {
-      "has_logs": "2024-12-28 02:58:24 +0000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/misc/lens": {
-    "criteria": {
-      "has_glass_pane": "2024-12-28 03:03:24 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/black_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2024-12-28 03:03:20 +0000"
@@ -3447,12 +3381,6 @@
   "minecraft:recipes/decorations/yellow_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2024-12-28 03:03:20 +0000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/misc/pink_lens": {
-    "criteria": {
-      "has_glass_pane": "2024-12-28 03:03:24 +0000"
     },
     "done": true
   },
@@ -3480,6 +3408,72 @@
     },
     "done": true
   },
+  "securitycraft:recipes/misc/orange_lens": {
+    "criteria": {
+      "has_glass_pane": "2024-12-28 03:03:24 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/lime_lens": {
+    "criteria": {
+      "has_glass_pane": "2024-12-28 03:03:24 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/cyan_lens": {
+    "criteria": {
+      "has_glass_pane": "2024-12-28 03:03:24 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/purple_lens": {
+    "criteria": {
+      "has_glass_pane": "2024-12-28 03:03:24 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/light_blue_lens": {
+    "criteria": {
+      "has_glass_pane": "2024-12-28 03:03:24 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/brown_lens": {
+    "criteria": {
+      "has_glass_pane": "2024-12-28 03:03:24 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/gray_lens": {
+    "criteria": {
+      "has_glass_pane": "2024-12-28 03:03:24 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/yellow_lens": {
+    "criteria": {
+      "has_glass_pane": "2024-12-28 03:03:24 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/blue_lens": {
+    "criteria": {
+      "has_glass_pane": "2024-12-28 03:03:24 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/lens": {
+    "criteria": {
+      "has_glass_pane": "2024-12-28 03:03:24 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/pink_lens": {
+    "criteria": {
+      "has_glass_pane": "2024-12-28 03:03:24 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/misc/magenta_lens": {
     "criteria": {
       "has_glass_pane": "2024-12-28 03:03:24 +0000"
@@ -3498,12 +3492,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/slime_ball": {
-    "criteria": {
-      "has_slime_block": "2024-12-28 03:30:51 +0000"
-    },
-    "done": true
-  },
   "securitycraft:recipes/misc/light_gray_lens": {
     "criteria": {
       "has_glass_pane": "2024-12-28 03:03:24 +0000"
@@ -3519,6 +3507,18 @@
   "securitycraft:recipes/misc/black_lens": {
     "criteria": {
       "has_glass_pane": "2024-12-28 03:03:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/slime_ball": {
+    "criteria": {
+      "has_slime_block": "2024-12-28 03:30:51 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/spruce_cabinet": {
+    "criteria": {
+      "has_spruce_trapdoor": "2024-12-28 04:04:07 +0000"
     },
     "done": true
   },

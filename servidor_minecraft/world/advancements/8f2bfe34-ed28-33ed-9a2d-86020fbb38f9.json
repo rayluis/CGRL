@@ -3946,6 +3946,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/decorations/mangrove_cabinet": {
+    "criteria": {
+      "has_mangrove_trapdoor": "2024-12-30 21:17:04 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/food/roast_chicken_block": {
     "criteria": {
       "has_cooked_chicken": "2024-12-30 19:55:31 +0000"
@@ -3973,6 +3979,24 @@
   "farmersdelight:recipes/decorations/cherry_cabinet": {
     "criteria": {
       "has_cherry_trapdoor": "2024-12-30 20:47:48 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/ocelot_smithing": {
+    "criteria": {
+      "has_ocelot": "2024-12-30 21:33:02 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/sheep_smithing": {
+    "criteria": {
+      "has_sheep": "2024-12-30 21:35:11 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/pig_smithing": {
+    "criteria": {
+      "has_pig": "2024-12-30 21:35:36 +0000"
     },
     "done": true
   },
