@@ -385,3 +385,5 @@ com.google.gson.JsonSyntaxException: Missing pack_format, expected to find a Int
 [30Dec2024 21:56:35.846] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheSandman01RD: Set own game mode to Creative Mode]
 [30Dec2024 21:58:20.109] [Netty Epoll Server IO #7/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [structure_gel:main,securitycraft:securitycraft,minecraft:treechop-channel,pehkui:main,ironchest:network,geckolib:main,waystones:network] rejected vanilla connections
 [30Dec2024 21:58:20.110] [Netty Epoll Server IO #7/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: [/127.33.151.133:45073] Disconnecting VANILLA connection attempt: This server has mods that require Forge to be installed on the client. Contact your server admin for more details.
+[30Dec2024 22:02:24.780] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: TheSandman01RD lost connection: Disconnected
+[30Dec2024 22:02:24.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheSandman01RD left the game
