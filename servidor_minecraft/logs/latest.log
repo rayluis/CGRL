@@ -353,3 +353,17 @@ com.google.gson.JsonSyntaxException: Missing pack_format, expected to find a Int
 [30Dec2024 19:44:55.635] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: TheSandman01RD[/127.33.151.133:53811] logged in with entity id 4628 at (306.80558389048014, 68.0, -91.35674354169201)
 [30Dec2024 19:44:55.695] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheSandman01RD joined the game
 [30Dec2024 19:44:56.596] [Server thread/ERROR] [net.threetag.palladium.Palladium/]: Was not able to read user's supporter data! (8f2bfe34-ed28-33ed-9a2d-86020fbb38f9)
+[30Dec2024 19:57:20.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheSandman01RD: Set own game mode to Spectator Mode]
+[30Dec2024 19:58:49.379] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheSandman01RD: Set own game mode to Survival Mode]
+[30Dec2024 19:58:54.240] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheSandman01RD: Set own game mode to Creative Mode]
+[30Dec2024 20:06:41.341] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheSandman01RD: Set own game mode to Survival Mode]
+[30Dec2024 20:07:06.436] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheSandman01RD: Set own game mode to Creative Mode]
+[30Dec2024 20:07:20.634] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheSandman01RD: Set own game mode to Survival Mode]
+[30Dec2024 20:08:03.846] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheSandman01RD: Set own game mode to Spectator Mode]
+[30Dec2024 20:08:56.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheSandman01RD: Set own game mode to Survival Mode]
+[30Dec2024 20:11:11.751] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheSandman01RD: Set own game mode to Spectator Mode]
+[30Dec2024 20:11:29.336] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheSandman01RD: Set own game mode to Survival Mode]
+[30Dec2024 20:11:38.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheSandman01RD: Set own game mode to Spectator Mode]
+[30Dec2024 20:11:45.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheSandman01RD: Set own game mode to Survival Mode]
+[30Dec2024 20:12:08.189] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheSandman01RD: Set own game mode to Spectator Mode]
+[30Dec2024 20:13:21.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheSandman01RD: Set own game mode to Creative Mode]
