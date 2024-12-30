@@ -1,365 +1,348 @@
-[27Dec2024 18:53:21.500] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[27Dec2024 18:53:21.504] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.5 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
-[27Dec2024 18:53:21.774] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[27Dec2024 18:53:21.835] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/CGRL/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[27Dec2024 18:53:22.121] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/CGRL/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[27Dec2024 18:53:22.122] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/CGRL/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[27Dec2024 18:53:22.125] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/CGRL/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[27Dec2024 18:53:22.128] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/CGRL/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[27Dec2024 18:53:22.226] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[27Dec2024 18:53:23.971] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[27Dec2024 18:53:24.006] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[27Dec2024 18:53:30.476] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/CGRL/servidor_minecraft/config/appleskin-client.toml is not correct. Correcting
-[27Dec2024 18:53:30.477] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Dec2024 18:53:30.477] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showFoodValuesInTooltip was corrected from null to its default, true. 
-[27Dec2024 18:53:30.478] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showFoodValuesInTooltipAlways was corrected from null to its default, true. 
-[27Dec2024 18:53:30.478] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showSaturationHudOverlay was corrected from null to its default, true. 
-[27Dec2024 18:53:30.479] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showFoodValuesHudOverlay was corrected from null to its default, true. 
-[27Dec2024 18:53:30.479] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showFoodValuesHudOverlayWhenOffhand was corrected from null to its default, true. 
-[27Dec2024 18:53:30.479] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showFoodExhaustionHudUnderlay was corrected from null to its default, true. 
-[27Dec2024 18:53:30.480] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showFoodStatsInDebugOverlay was corrected from null to its default, true. 
-[27Dec2024 18:53:30.480] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showFoodHealthHudOverlay was corrected from null to its default, true. 
-[27Dec2024 18:53:30.480] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showVanillaAnimationsOverlay was corrected from null to its default, true. 
-[27Dec2024 18:53:30.482] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.maxHudOverlayFlashAlpha was corrected from null to its default, 0.65. 
-[27Dec2024 18:53:30.509] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[27Dec2024 18:53:30.510] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[27Dec2024 18:53:31.165] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: The object net.minecraft.sounds.SoundEvent@19b0f61c has been registered twice for the same name treechop:chop_wood.
-[27Dec2024 18:53:32.117] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/CGRL/servidor_minecraft/config/farmersdelight-common.toml is not correct. Correcting
-[27Dec2024 18:53:32.118] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key settings was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Dec2024 18:53:32.119] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key settings.enableVanillaCropCrates was corrected from null to its default, true. 
-[27Dec2024 18:53:32.119] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key settings.farmersBuyFDCrops was corrected from null to its default, true. 
-[27Dec2024 18:53:32.120] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key settings.wanderingTraderSellsFDItems was corrected from null to its default, true. 
-[27Dec2024 18:53:32.120] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key settings.richSoilBoostChance was corrected from null to its default, 0.2. 
-[27Dec2024 18:53:32.121] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key settings.cuttingBoardFortuneBonus was corrected from null to its default, 0.1. 
-[27Dec2024 18:53:32.121] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key settings.enableRopeReeling was corrected from null to its default, true. 
-[27Dec2024 18:53:32.122] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key settings.canvasSignDarkBackgroundList was corrected from null to its default, [gray, purple, blue, brown, green, red, black]. 
-[27Dec2024 18:53:32.124] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key farming was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Dec2024 18:53:32.124] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key farming.defaultTomatoVineRope was corrected from null to its default, farmersdelight:rope. 
-[27Dec2024 18:53:32.124] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key farming.enableTomatoVineClimbingTaggedRopes was corrected from null to its default, true. 
-[27Dec2024 18:53:32.126] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipe_book was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Dec2024 18:53:32.127] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipe_book.enableRecipeBookCookingPot was corrected from null to its default, true. 
-[27Dec2024 18:53:32.128] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key overrides was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Dec2024 18:53:32.129] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key overrides.vanillaSoupExtraEffects was corrected from null to its default, true. 
-[27Dec2024 18:53:32.129] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key overrides.rabbitStewJumpBoost was corrected from null to its default, true. 
-[27Dec2024 18:53:32.130] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key overrides.dispenserUsesToolsOnCuttingBoard was corrected from null to its default, true. 
-[27Dec2024 18:53:32.130] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key overrides.stack_size was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Dec2024 18:53:32.130] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key overrides.stack_size.enableStackableSoupItems was corrected from null to its default, true. 
-[27Dec2024 18:53:32.131] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key overrides.stack_size.soupItemList was corrected from null to its default, [minecraft:mushroom_stew, minecraft:beetroot_soup, minecraft:rabbit_stew]. 
-[27Dec2024 18:53:32.134] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Dec2024 18:53:32.134] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.generateFDChestLoot was corrected from null to its default, true. 
-[27Dec2024 18:53:32.134] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.genVillageCompostHeaps was corrected from null to its default, true. 
-[27Dec2024 18:53:32.135] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.genFDCropsOnVillageFarms was corrected from null to its default, true. 
-[27Dec2024 18:53:32.135] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.wild_cabbages was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Dec2024 18:53:32.136] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.wild_cabbages.chance was corrected from null to its default, 30. 
-[27Dec2024 18:53:32.136] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.wild_beetroots was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Dec2024 18:53:32.137] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.wild_beetroots.chance was corrected from null to its default, 30. 
-[27Dec2024 18:53:32.137] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.wild_potatoes was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Dec2024 18:53:32.138] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.wild_potatoes.chance was corrected from null to its default, 100. 
-[27Dec2024 18:53:32.138] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.wild_carrots was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Dec2024 18:53:32.139] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.wild_carrots.chance was corrected from null to its default, 120. 
-[27Dec2024 18:53:32.139] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.wild_onions was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Dec2024 18:53:32.140] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.wild_onions.chance was corrected from null to its default, 120. 
-[27Dec2024 18:53:32.140] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.wild_tomatoes was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Dec2024 18:53:32.140] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.wild_tomatoes.chance was corrected from null to its default, 100. 
-[27Dec2024 18:53:32.141] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.wild_rice was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Dec2024 18:53:32.141] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.wild_rice.chance was corrected from null to its default, 20. 
-[27Dec2024 18:53:32.142] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.brown_mushroom_colonies was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Dec2024 18:53:32.142] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.brown_mushroom_colonies.genBrownMushroomColony was corrected from null to its default, true. 
-[27Dec2024 18:53:32.143] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.brown_mushroom_colonies.chance was corrected from null to its default, 15. 
-[27Dec2024 18:53:32.143] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.red_mushroom_colonies was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Dec2024 18:53:32.143] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.red_mushroom_colonies.genRedMushroomColony was corrected from null to its default, true. 
-[27Dec2024 18:53:32.144] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.red_mushroom_colonies.chance was corrected from null to its default, 15. 
-[27Dec2024 18:53:32.149] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/CGRL/servidor_minecraft/config/treechop-common.toml is not correct. Correcting
-[27Dec2024 18:53:32.149] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mod was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Dec2024 18:53:32.150] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mod.enabled was corrected from null to its default, true. 
-[27Dec2024 18:53:32.150] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mod.printDebugInfo was corrected from null to its default, true. 
-[27Dec2024 18:53:32.151] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key permissions was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Dec2024 18:53:32.151] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key permissions.choppingEnabled was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Dec2024 18:53:32.151] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key permissions.choppingEnabled.canBeFalse was corrected from null to its default, true. 
-[27Dec2024 18:53:32.152] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key permissions.choppingEnabled.canBeTrue was corrected from null to its default, true. 
-[27Dec2024 18:53:32.152] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key permissions.fellingEnabled was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Dec2024 18:53:32.152] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key permissions.fellingEnabled.canBeFalse was corrected from null to its default, true. 
-[27Dec2024 18:53:32.152] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key permissions.fellingEnabled.canBeTrue was corrected from null to its default, true. 
-[27Dec2024 18:53:32.153] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key permissions.sneakBehavior was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Dec2024 18:53:32.153] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key permissions.sneakBehavior.canBeNone was corrected from null to its default, true. 
-[27Dec2024 18:53:32.153] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key permissions.sneakBehavior.canBeInvertFelling was corrected from null to its default, true. 
-[27Dec2024 18:53:32.153] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key permissions.sneakBehavior.canBeInvertChopping was corrected from null to its default, true. 
-[27Dec2024 18:53:32.154] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key permissions.treeMustHaveLeaves was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Dec2024 18:53:32.154] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key permissions.treeMustHaveLeaves.canBeFalse was corrected from null to its default, true. 
-[27Dec2024 18:53:32.154] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key permissions.treeMustHaveLeaves.canBeTrue was corrected from null to its default, true. 
-[27Dec2024 18:53:32.154] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key permissions.chopInCreativeMode was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Dec2024 18:53:32.155] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key permissions.chopInCreativeMode.canBeFalse was corrected from null to its default, true. 
-[27Dec2024 18:53:32.155] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key permissions.chopInCreativeMode.canBeTrue was corrected from null to its default, true. 
-[27Dec2024 18:53:32.156] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Dec2024 18:53:32.156] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.dropLootForChoppedBlocks was corrected from null to its default, true. 
-[27Dec2024 18:53:32.156] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.dropLootOnFirstChop was corrected from null to its default, false. 
-[27Dec2024 18:53:32.157] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key treeDetection was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Dec2024 18:53:32.158] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key treeDetection.maxTreeBlocks was corrected from null to its default, 1024. 
-[27Dec2024 18:53:32.158] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key treeDetection.maxLeavesBlocks was corrected from null to its default, 1024. 
-[27Dec2024 18:53:32.158] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key treeDetection.breakLeaves was corrected from null to its default, true. 
-[27Dec2024 18:53:32.159] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key treeDetection.ignorePersistentLeaves was corrected from null to its default, true. 
-[27Dec2024 18:53:32.159] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key treeDetection.maxBreakLeavesDistance was corrected from null to its default, 7. 
-[27Dec2024 18:53:32.160] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key treeDetection.logs was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Dec2024 18:53:32.160] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key treeDetection.logs.blocks was corrected from null to its default, [#treechop:choppables, #minecraft:logs]. 
-[27Dec2024 18:53:32.160] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key treeDetection.logs.exceptions was corrected from null to its default, [minecraft:bamboo, #dynamictrees:branches, dynamictrees:trunk_shell]. 
-[27Dec2024 18:53:32.161] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key treeDetection.leaves was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Dec2024 18:53:32.161] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key treeDetection.leaves.blocks was corrected from null to its default, [#treechop:leaves_like, #minecraft:leaves, pamhc2trees:pam[a-z]+]. 
-[27Dec2024 18:53:32.162] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key treeDetection.leaves.exceptions was corrected from null to its default, []. 
-[27Dec2024 18:53:32.163] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key chopCounting was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Dec2024 18:53:32.163] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key chopCounting.algorithm was corrected from null to its default, LOGARITHMIC. 
-[27Dec2024 18:53:32.163] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key chopCounting.rounding was corrected from null to its default, NEAREST. 
-[27Dec2024 18:53:32.164] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key chopCounting.canRequireMoreChopsThanBlocks was corrected from null to its default, false. 
-[27Dec2024 18:53:32.164] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key chopCounting.logarithmic was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Dec2024 18:53:32.165] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key chopCounting.logarithmic.a was corrected from null to its default, 10.0. 
-[27Dec2024 18:53:32.165] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key chopCounting.linear was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Dec2024 18:53:32.165] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key chopCounting.linear.chopsPerBlock was corrected from null to its default, 1.0. 
-[27Dec2024 18:53:32.166] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key chopCounting.linear.baseNumChops was corrected from null to its default, 0.0. 
-[27Dec2024 18:53:32.167] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Dec2024 18:53:32.167] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.general was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Dec2024 18:53:32.168] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.general.choppingRequiresCorrectToolForDrops was corrected from null to its default, true. 
-[27Dec2024 18:53:32.168] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.general.choppingRequiresFastBreakingTool was corrected from null to its default, false. 
-[27Dec2024 18:53:32.168] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.general.preventChoppingOnRightClick was corrected from null to its default, false. 
-[27Dec2024 18:53:32.169] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.general.preventChopRecursion was corrected from null to its default, true. 
-[27Dec2024 18:53:32.169] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.general.blacklist was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Dec2024 18:53:32.169] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.general.blacklist.blacklistOrWhitelist was corrected from null to its default, BLACKLIST. 
-[27Dec2024 18:53:32.170] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.general.blacklist.items was corrected from null to its default, [botania:terra_axe, @lumberjack, mekanism:atomic_disassembler, practicaltools:diamond_greataxe, practicaltools:golden_greataxe, practicaltools:iron_greataxe, practicaltools:netherite_greataxe, twilightforest:giant_pickaxe]. 
-[27Dec2024 18:53:32.170] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.general.fakePlayerChopSettings was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Dec2024 18:53:32.171] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.general.fakePlayerChopSettings.choppingEnabled was corrected from null to its default, false. 
-[27Dec2024 18:53:32.171] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.general.fakePlayerChopSettings.fellingEnabled was corrected from null to its default, true. 
-[27Dec2024 18:53:32.171] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.general.fakePlayerChopSettings.treesMustHaveLeaves was corrected from null to its default, true. 
-[27Dec2024 18:53:32.172] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.trees was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Dec2024 18:53:32.172] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.trees.hugeMushrooms was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Dec2024 18:53:32.172] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.trees.hugeMushrooms.logs was corrected from null to its default, [#forge:mushroom_stems]. 
-[27Dec2024 18:53:32.173] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.trees.hugeMushrooms.leaves was corrected from null to its default, [#forge:mushroom_caps]. 
-[27Dec2024 18:53:32.173] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.trees.hugeFungi was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Dec2024 18:53:32.173] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.trees.hugeFungi.logs was corrected from null to its default, [#minecraft:crimson_stems, #minecraft:warped_stems]. 
-[27Dec2024 18:53:32.174] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.trees.hugeFungi.leaves was corrected from null to its default, [#minecraft:wart_blocks, minecraft:shroomlight]. 
-[27Dec2024 18:53:32.174] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.trees.problematicLeavesTrees was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Dec2024 18:53:32.174] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.trees.problematicLeavesTrees.logs was corrected from null to its default, [tropicraft:.*_log(_.*)?, mysticbiomes:.*_log, betternether:.*_bark, betternether:.*_log, alexscaves:.*_log, alexscaves:pewen_wood]. 
-[27Dec2024 18:53:32.175] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.trees.problematicLeavesTrees.leaves was corrected from null to its default, [tropicraft:.*_leaves(_.*)?, betternether:.*_leaves, regions_unexplored:brimwood_leaves, alexscaves:.*_branch, alexscaves:pewen_pines]. 
-[27Dec2024 18:53:32.175] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.carryOn was corrected from null to its default, true. 
-[27Dec2024 18:53:32.176] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.projectMMO was corrected from null to its default, true. 
-[27Dec2024 18:53:32.176] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.theOneProbe was corrected from null to its default, true. 
-[27Dec2024 18:53:32.176] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.terraformers was corrected from null to its default, true. 
-[27Dec2024 18:53:32.177] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.multiMine was corrected from null to its default, true. 
-[27Dec2024 18:53:32.177] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.apotheosis was corrected from null to its default, true. 
-[27Dec2024 18:53:32.177] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.silentgear was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Dec2024 18:53:32.178] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.silentgear.enabled was corrected from null to its default, true. 
-[27Dec2024 18:53:32.178] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.silentgear.sawChops was corrected from null to its default, 5. 
-[27Dec2024 18:53:32.178] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.tinkersConstruct was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Dec2024 18:53:32.179] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.tinkersConstruct.enabled was corrected from null to its default, true. 
-[27Dec2024 18:53:32.179] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.tinkersConstruct.treeBreakingTools was corrected from null to its default, 5. 
-[27Dec2024 18:53:32.180] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.tinkersConstruct.woodBreakingTools was corrected from null to its default, 1. 
-[27Dec2024 18:53:32.180] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.tinkersConstruct.expandedMultiplier was corrected from null to its default, 2.0. 
-[27Dec2024 18:53:32.180] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.API was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Dec2024 18:53:32.181] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.API.verbose was corrected from null to its default, false. 
-[27Dec2024 18:53:32.185] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/CGRL/servidor_minecraft/config/travelersbackpack-common.toml is not correct. Correcting
-[27Dec2024 18:53:32.186] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Dec2024 18:53:32.186] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Dec2024 18:53:32.186] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.leatherTierBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Dec2024 18:53:32.187] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.leatherTierBackpack.inventorySlotCount was corrected from null to its default, 27. 
-[27Dec2024 18:53:32.187] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.leatherTierBackpack.toolSlotCount was corrected from null to its default, 2. 
-[27Dec2024 18:53:32.187] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.leatherTierBackpack.tankCapacity was corrected from null to its default, 3000. 
-[27Dec2024 18:53:32.188] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.ironTierBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Dec2024 18:53:32.188] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.ironTierBackpack.inventorySlotCount was corrected from null to its default, 36. 
-[27Dec2024 18:53:32.188] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.ironTierBackpack.toolSlotCount was corrected from null to its default, 3. 
-[27Dec2024 18:53:32.189] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.ironTierBackpack.tankCapacity was corrected from null to its default, 4000. 
-[27Dec2024 18:53:32.189] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.goldTierBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Dec2024 18:53:32.189] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.goldTierBackpack.inventorySlotCount was corrected from null to its default, 45. 
-[27Dec2024 18:53:32.190] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.goldTierBackpack.toolSlotCount was corrected from null to its default, 4. 
-[27Dec2024 18:53:32.190] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.goldTierBackpack.tankCapacity was corrected from null to its default, 5000. 
-[27Dec2024 18:53:32.191] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.diamondTierBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Dec2024 18:53:32.191] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.diamondTierBackpack.inventorySlotCount was corrected from null to its default, 54. 
-[27Dec2024 18:53:32.191] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.diamondTierBackpack.toolSlotCount was corrected from null to its default, 5. 
-[27Dec2024 18:53:32.192] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.diamondTierBackpack.tankCapacity was corrected from null to its default, 6000. 
-[27Dec2024 18:53:32.192] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.netheriteTierBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Dec2024 18:53:32.192] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.netheriteTierBackpack.inventorySlotCount was corrected from null to its default, 63. 
-[27Dec2024 18:53:32.193] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.netheriteTierBackpack.toolSlotCount was corrected from null to its default, 6. 
-[27Dec2024 18:53:32.193] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.netheriteTierBackpack.tankCapacity was corrected from null to its default, 7000. 
-[27Dec2024 18:53:32.194] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.enableTierUpgrades was corrected from null to its default, true. 
-[27Dec2024 18:53:32.194] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.enableCraftingUpgrade was corrected from null to its default, true. 
-[27Dec2024 18:53:32.194] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.craftingUpgradeByDefault was corrected from null to its default, false. 
-[27Dec2024 18:53:32.194] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.craftingSavesItems was corrected from null to its default, true. 
-[27Dec2024 18:53:32.195] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.enableBackpackBlockWearable was corrected from null to its default, true. 
-[27Dec2024 18:53:32.195] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.enableBackpackRightClickUnequip was corrected from null to its default, false. 
-[27Dec2024 18:53:32.195] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.allowOnlyEquippedBackpack was corrected from null to its default, false. 
-[27Dec2024 18:53:32.196] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.invulnerableBackpack was corrected from null to its default, true. 
-[27Dec2024 18:53:32.196] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.toolSlotsAcceptSwords was corrected from null to its default, true. 
-[27Dec2024 18:53:32.197] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.toolSlotsAcceptableItems was corrected from null to its default, []. 
-[27Dec2024 18:53:32.197] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.toolSlotsAcceptEverything was corrected from null to its default, false. 
-[27Dec2024 18:53:32.197] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.blacklistedItems was corrected from null to its default, []. 
-[27Dec2024 18:53:32.198] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.allowShulkerBoxes was corrected from null to its default, false. 
-[27Dec2024 18:53:32.198] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.voidProtection was corrected from null to its default, true. 
-[27Dec2024 18:53:32.199] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.backpackDeathPlace was corrected from null to its default, true. 
-[27Dec2024 18:53:32.199] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.backpackForceDeathPlace was corrected from null to its default, false. 
-[27Dec2024 18:53:32.199] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.enableSleepingBagSpawnPoint was corrected from null to its default, false. 
-[27Dec2024 18:53:32.200] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.curiosIntegration was corrected from null to its default, false. 
-[27Dec2024 18:53:32.200] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.world was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Dec2024 18:53:32.200] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.world.enableLoot was corrected from null to its default, true. 
-[27Dec2024 18:53:32.201] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.world.spawnEntitiesWithBackpack was corrected from null to its default, true. 
-[27Dec2024 18:53:32.201] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.world.chance was corrected from null to its default, 0.005. 
-[27Dec2024 18:53:32.202] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.world.possibleOverworldEntityTypes was corrected from null to its default, [minecraft:zombie, minecraft:skeleton, minecraft:enderman]. 
-[27Dec2024 18:53:32.202] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.world.possibleNetherEntityTypes was corrected from null to its default, [minecraft:wither_skeleton, minecraft:piglin]. 
-[27Dec2024 18:53:32.203] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.world.overworldBackpacks was corrected from null to its default, [travelersbackpack:standard, travelersbackpack:diamond, travelersbackpack:gold, travelersbackpack:emerald, travelersbackpack:iron, travelersbackpack:lapis, travelersbackpack:redstone, travelersbackpack:coal, travelersbackpack:bookshelf, travelersbackpack:sandstone, travelersbackpack:snow, travelersbackpack:sponge, travelersbackpack:cake, travelersbackpack:cactus, travelersbackpack:hay, travelersbackpack:melon, travelersbackpack:pumpkin, travelersbackpack:creeper, travelersbackpack:enderman, travelersbackpack:skeleton, travelersbackpack:spider, travelersbackpack:bee, travelersbackpack:wolf, travelersbackpack:fox, travelersbackpack:ocelot, travelersbackpack:horse, travelersbackpack:cow, travelersbackpack:pig, travelersbackpack:sheep, travelersbackpack:chicken, travelersbackpack:squid]. 
-[27Dec2024 18:53:32.204] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.world.netherBackpacks was corrected from null to its default, [travelersbackpack:quartz, travelersbackpack:nether, travelersbackpack:blaze, travelersbackpack:ghast, travelersbackpack:magma_cube, travelersbackpack:wither]. 
-[27Dec2024 18:53:32.204] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.world.enableVillagerTrade was corrected from null to its default, true. 
-[27Dec2024 18:53:32.204] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackAbilities was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Dec2024 18:53:32.204] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackAbilities.enableBackpackAbilities was corrected from null to its default, true. 
-[27Dec2024 18:53:32.205] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackAbilities.forceAbilityEnabled was corrected from null to its default, true. 
-[27Dec2024 18:53:32.206] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackAbilities.allowedAbilities was corrected from null to its default, [travelersbackpack:netherite, travelersbackpack:diamond, travelersbackpack:gold, travelersbackpack:emerald, travelersbackpack:iron, travelersbackpack:lapis, travelersbackpack:redstone, travelersbackpack:bookshelf, travelersbackpack:sponge, travelersbackpack:cake, travelersbackpack:cactus, travelersbackpack:melon, travelersbackpack:pumpkin, travelersbackpack:creeper, travelersbackpack:dragon, travelersbackpack:enderman, travelersbackpack:blaze, travelersbackpack:ghast, travelersbackpack:magma_cube, travelersbackpack:spider, travelersbackpack:wither, travelersbackpack:bat, travelersbackpack:bee, travelersbackpack:ocelot, travelersbackpack:cow, travelersbackpack:chicken, travelersbackpack:squid]. 
-[27Dec2024 18:53:32.206] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.slownessDebuff was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Dec2024 18:53:32.207] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.slownessDebuff.tooManyBackpacksSlowness was corrected from null to its default, false. 
-[27Dec2024 18:53:32.207] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.slownessDebuff.maxNumberOfBackpacks was corrected from null to its default, 3. 
-[27Dec2024 18:53:32.207] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.slownessDebuff.slownessPerExcessedBackpack was corrected from null to its default, 1.0. 
-[27Dec2024 18:53:32.351] [main/INFO] [journeymap/]: Initializing Packet Registries
-[27Dec2024 18:53:32.424] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
-[27Dec2024 18:53:32.425] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
-[27Dec2024 18:53:32.427] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
-[27Dec2024 18:53:32.427] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
-[27Dec2024 18:53:32.512] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[27Dec2024 18:53:33.047] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.22
-[27Dec2024 18:53:33.048] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
-[27Dec2024 18:53:33.280] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.3 Target: null
-[27Dec2024 18:53:33.280] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
-[27Dec2024 18:53:33.730] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.9.12 Target: null
-[27Dec2024 18:53:33.731] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
-[27Dec2024 18:53:33.797] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: UP_TO_DATE Current: 9.1.16 Target: null
-[27Dec2024 18:53:34.274] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[27Dec2024 18:53:35.158] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/CGRL/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23121!/assets/.mcassetsroot' uses unexpected schema
-[27Dec2024 18:53:35.158] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/CGRL/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23121!/data/.mcassetsroot' uses unexpected schema
-[27Dec2024 18:53:37.485] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 9 recipes
-[27Dec2024 18:53:37.664] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2404 advancements
-[27Dec2024 18:53:38.460] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[27Dec2024 18:53:38.461] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[27Dec2024 18:53:38.462] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[27Dec2024 18:53:38.464] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[27Dec2024 18:53:38.617] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[27Dec2024 18:53:38.647] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[27Dec2024 18:53:38.724] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[27Dec2024 18:53:38.725] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[27Dec2024 18:53:38.725] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[27Dec2024 18:53:38.726] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[27Dec2024 18:53:38.739] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/journeymap-server.toml is not correct. Correcting
-[27Dec2024 18:53:38.739] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key admins was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Dec2024 18:53:38.740] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key admins.opAccess was corrected from null to its default, true. 
-[27Dec2024 18:53:38.740] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key admins.serverAdmins was corrected from null to its default, [mysticdrew, 79f597fe-2877-4ecb-acdf-8c58cc1854ca]. 
-[27Dec2024 18:53:38.742] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[27Dec2024 18:53:38.742] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[27Dec2024 18:53:38.743] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[27Dec2024 18:53:38.744] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/securitycraft-server.toml is not correct. Correcting
-[27Dec2024 18:53:38.744] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[27Dec2024 18:53:38.745] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key codebreaker_chance was corrected from null to its default, 0.33. 
-[27Dec2024 18:53:38.746] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowAdminTool was corrected from null to its default, true. 
-[27Dec2024 18:53:38.746] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key shouldSpawnFire was corrected from null to its default, true. 
-[27Dec2024 18:53:38.747] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ableToBreakMines was corrected from null to its default, true. 
-[27Dec2024 18:53:38.748] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key smallerMineExplosion was corrected from null to its default, false. 
-[27Dec2024 18:53:38.748] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mineExplodesWhenInCreative was corrected from null to its default, true. 
-[27Dec2024 18:53:38.749] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mineExplosionsBreakBlocks was corrected from null to its default, true. 
-[27Dec2024 18:53:38.750] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key laserBlockRange was corrected from null to its default, 5. 
-[27Dec2024 18:53:38.751] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key inventoryScannerRange was corrected from null to its default, 2. 
-[27Dec2024 18:53:38.751] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key maxAlarmRange was corrected from null to its default, 100. 
-[27Dec2024 18:53:38.752] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowBlockClaim was corrected from null to its default, false. 
-[27Dec2024 18:53:38.753] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key reinforced_block_tint was corrected from null to its default, true. 
-[27Dec2024 18:53:38.754] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key force_reinforced_block_tint was corrected from null to its default, false. 
-[27Dec2024 18:53:38.755] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key retinalScannerFace was corrected from null to its default, true. 
-[27Dec2024 18:53:38.755] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enable_team_ownership was corrected from null to its default, false. 
-[27Dec2024 18:53:38.756] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key team_ownership_precedence was corrected from null to its default, [FTB_TEAMS, VANILLA]. 
-[27Dec2024 18:53:38.758] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key disable_thanks_message was corrected from null to its default, false. 
-[27Dec2024 18:53:38.760] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trick_scanners_with_player_heads was corrected from null to its default, false. 
-[27Dec2024 18:53:38.761] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key prevent_reinforced_floor_glitching was corrected from null to its default, false. 
-[27Dec2024 18:53:38.763] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key taser_damage was corrected from null to its default, 1.0. 
-[27Dec2024 18:53:38.765] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key powered_taser_damage was corrected from null to its default, 2.0. 
-[27Dec2024 18:53:38.767] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key taser_effects was corrected from null to its default, [minecraft:weakness|200|2, minecraft:nausea|200|2, minecraft:slowness|200|2]. 
-[27Dec2024 18:53:38.769] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key powered_taser_effects was corrected from null to its default, [minecraft:weakness|400|5, minecraft:nausea|400|5, minecraft:slowness|400|5]. 
-[27Dec2024 18:53:38.770] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key laser_damage was corrected from null to its default, 10.0. 
-[27Dec2024 18:53:38.772] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key incorrectPasscodeDamage was corrected from null to its default, 4. 
-[27Dec2024 18:53:38.774] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sentry_bullet_damage was corrected from null to its default, 2. 
-[27Dec2024 18:53:38.777] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key reinforced_suffocation_damage was corrected from null to its default, 5. 
-[27Dec2024 18:53:38.779] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allow_camera_night_vision was corrected from null to its default, true. 
-[27Dec2024 18:53:38.781] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key passcode_check_cooldown was corrected from null to its default, 250. 
-[27Dec2024 18:53:38.783] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key passcode_spam_log_warning_enabled was corrected from null to its default, true. 
-[27Dec2024 18:53:38.785] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key passcode_spam_log_warning was corrected from null to its default, Player "%1$s" tried to enter a passcode into "%2$s" at position [%3$s] too quickly!. 
-[27Dec2024 18:53:38.788] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key in_world_un_reinforcing was corrected from null to its default, true. 
-[27Dec2024 18:53:38.791] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sentry_attackable_entities_allowlist was corrected from null to its default, []. 
-[27Dec2024 18:53:38.793] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sentry_attackable_entities_denylist was corrected from null to its default, []. 
-[27Dec2024 18:53:38.804] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/jei-server.toml is not correct. Correcting
-[27Dec2024 18:53:38.805] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Dec2024 18:53:38.806] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForOp was corrected from null to its default, true. 
-[27Dec2024 18:53:38.806] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForCreative was corrected from null to its default, true. 
-[27Dec2024 18:53:38.806] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForGive was corrected from null to its default, false. 
-[27Dec2024 18:53:38.863] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[27Dec2024 18:53:41.520] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[27Dec2024 18:53:44.598] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Dec2024 18:53:44.599] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Dec2024 18:53:44.600] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Dec2024 18:53:44.601] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Dec2024 18:53:44.601] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Dec2024 18:53:44.602] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Dec2024 18:53:44.603] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Dec2024 18:53:45.021] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 27%
-[27Dec2024 18:53:45.466] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3946 ms
-[27Dec2024 18:53:45.467] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (6.730s)! For help, type "help"
-[27Dec2024 18:53:45.487] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[27Dec2024 18:53:45.499] [Server thread/INFO] [journeymap/]: global (FirstLoaded) Setting config file to version "5.10.3": journeymap.server.global.config
-[27Dec2024 18:53:45.499] [Server thread/INFO] [journeymap/]: global (Valid) Creating config file: ./journeymap/server/5.10/journeymap.server.global.config
-[27Dec2024 18:53:45.510] [Server thread/INFO] [journeymap/]: default (FirstLoaded) Setting config file to version "5.10.3": journeymap.server.default.config
-[27Dec2024 18:53:45.511] [Server thread/INFO] [journeymap/]: default (Valid) Creating config file: ./journeymap/server/5.10/journeymap.server.default.config
-[27Dec2024 18:53:45.514] [Server thread/INFO] [journeymap/]: minecraft~overworld (Initialized) Setting config file to version "5.10.3": journeymap.server.minecraft~overworld.config
-[27Dec2024 18:53:45.514] [Server thread/INFO] [journeymap/]: minecraft~overworld (Valid) Creating config file: ./journeymap/server/5.10/journeymap.server.minecraft~overworld.config
-[27Dec2024 18:53:45.520] [Server thread/INFO] [journeymap/]: minecraft~the_end (Initialized) Setting config file to version "5.10.3": journeymap.server.minecraft~the_end.config
-[27Dec2024 18:53:45.521] [Server thread/INFO] [journeymap/]: minecraft~the_end (Valid) Creating config file: ./journeymap/server/5.10/journeymap.server.minecraft~the_end.config
-[27Dec2024 18:53:45.523] [Server thread/INFO] [journeymap/]: minecraft~the_nether (Initialized) Setting config file to version "5.10.3": journeymap.server.minecraft~the_nether.config
-[27Dec2024 18:53:45.524] [Server thread/INFO] [journeymap/]: minecraft~the_nether (Valid) Creating config file: ./journeymap/server/5.10/journeymap.server.minecraft~the_nether.config
-[27Dec2024 18:57:02.860] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Punchlinee[/127.109.108.53:57261] logged in with entity id 162 at (8.5, 76.0, -20.5)
-[27Dec2024 18:57:02.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Punchlinee joined the game
-[27Dec2024 19:05:44.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made punchilinee a server operator
-[27Dec2024 19:06:10.692] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Mprinxipe[/127.85.160.164:39309] logged in with entity id 1364 at (9.5, 73.0, -9.5)
-[27Dec2024 19:06:10.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mprinxipe joined the game
-[27Dec2024 19:08:33.731] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Punchlinee lost connection: Disconnected
-[27Dec2024 19:08:33.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Punchlinee left the game
-[27Dec2024 19:08:51.836] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@2e6ae030[id=<null>,name=Punchlinee,properties={},legacy=false] (/127.109.108.53:41513) lost connection: Disconnected
-[27Dec2024 19:09:20.180] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@a9d91e9[id=<null>,name=Punchlinee,properties={},legacy=false] (/127.109.108.53:59961) lost connection: Disconnected
-[27Dec2024 19:09:24.697] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Punchlinee[/127.109.108.53:55557] logged in with entity id 1822 at (6.815874348124614, 64.0, 9.10669968632654)
-[27Dec2024 19:09:24.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Punchlinee joined the game
-[27Dec2024 19:09:43.837] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made Punchlinee a server operator
-[27Dec2024 19:09:57.870] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Punchlinee: Set own game mode to Creative Mode]
-[27Dec2024 19:10:05.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Punchlinee: Set the time to 1000]
-[27Dec2024 19:19:49.882] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Punchlinee: Set the time to 1000]
-[27Dec2024 19:29:44.211] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Punchlinee: Set the time to 1000]
-[27Dec2024 19:34:08.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made Mprinxipe a server operator
-[27Dec2024 19:34:14.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mprinxipe: Set own game mode to Creative Mode]
-[27Dec2024 19:39:50.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Punchlinee: Set the time to 1000]
-[27Dec2024 19:44:46.785] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mprinxipe has made the advancement [Hot Stuff]
-[27Dec2024 19:48:02.634] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mprinxipe: Set own game mode to Survival Mode]
-[27Dec2024 19:48:33.055] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mprinxipe: Set own game mode to Creative Mode]
-[27Dec2024 19:53:29.380] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mprinxipe has made the advancement [Monster Hunter]
-[27Dec2024 20:00:45.082] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mprinxipe lost connection: Timed out
-[27Dec2024 20:00:45.083] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mprinxipe left the game
-[27Dec2024 20:03:14.192] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Punchlinee has made the advancement [Acquire Hardware]
-[27Dec2024 20:03:59.459] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Mprinxipe[/127.85.160.164:56937] logged in with entity id 9642 at (-81.15511755946049, 65.5564868875536, 63.217803434567195)
-[27Dec2024 20:03:59.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mprinxipe joined the game
-[27Dec2024 20:04:29.532] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mprinxipe lost connection: Timed out
-[27Dec2024 20:04:29.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mprinxipe left the game
-[27Dec2024 20:05:09.596] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Mprinxipe[/127.85.160.164:35469] logged in with entity id 9781 at (-81.15511755946049, 65.5564868875536, 63.217803434567195)
-[27Dec2024 20:05:09.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mprinxipe joined the game
-[27Dec2024 20:05:39.683] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mprinxipe lost connection: Timed out
-[27Dec2024 20:05:39.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mprinxipe left the game
-[27Dec2024 20:06:15.739] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Mprinxipe[/127.85.160.164:53101] logged in with entity id 9914 at (-81.15511755946049, 65.5564868875536, 63.217803434567195)
-[27Dec2024 20:06:15.751] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mprinxipe joined the game
-[27Dec2024 20:06:44.941] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mprinxipe has made the advancement [Acquire Hardware]
-[27Dec2024 20:08:25.085] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mprinxipe lost connection: Disconnected
-[27Dec2024 20:08:25.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mprinxipe left the game
-[27Dec2024 20:08:41.033] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Punchlinee lost connection: Disconnected
-[27Dec2024 20:08:41.033] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Punchlinee left the game
-[27Dec2024 20:08:53.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[27Dec2024 20:08:53.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[27Dec2024 20:08:53.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[27Dec2024 20:08:53.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[27Dec2024 20:08:54.380] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[27Dec2024 20:08:54.989] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[27Dec2024 20:08:54.990] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[27Dec2024 20:08:55.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[27Dec2024 20:08:55.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[27Dec2024 20:08:55.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[27Dec2024 20:08:55.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[27Dec2024 20:08:55.023] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[30Dec2024 19:10:28.375] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[30Dec2024 19:10:28.380] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.5 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[30Dec2024 19:10:29.400] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[30Dec2024 19:10:29.451] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/CGRL/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[30Dec2024 19:10:29.778] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/CGRL/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[30Dec2024 19:10:29.779] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/CGRL/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[30Dec2024 19:10:29.781] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/CGRL/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[30Dec2024 19:10:29.782] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/CGRL/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[30Dec2024 19:10:30.050] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 6 dependencies adding them to mods collection
+[30Dec2024 19:10:32.222] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[30Dec2024 19:10:32.245] [main/ERROR] [mixin/]: Mixin config palladiumcore-common.mixins.json does not specify "minVersion" property
+[30Dec2024 19:10:32.247] [main/ERROR] [mixin/]: Mixin config palladiumcore.mixins.json does not specify "minVersion" property
+[30Dec2024 19:10:32.309] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[30Dec2024 19:10:34.316] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
+[30Dec2024 19:10:39.206] [main/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=1 on palladiumcore-common.mixins.json:LightningBoltMixin::handler$zzh000$tick exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[30Dec2024 19:10:43.168] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
+[30Dec2024 19:10:43.194] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
+[30Dec2024 19:10:43.560] [modloading-worker-0/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.3.14...
+[30Dec2024 19:10:43.714] [modloading-worker-0/INFO] [KubeJS/]: Loaded common.properties
+[30Dec2024 19:10:43.716] [modloading-worker-0/INFO] [KubeJS/]: Loaded dev.properties
+[30Dec2024 19:10:43.719] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[30Dec2024 19:10:43.730] [modloading-worker-0/INFO] [KubeJS/]: Looking for KubeJS plugins...
+[30Dec2024 19:10:43.738] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source kubejs
+[30Dec2024 19:10:43.753] [modloading-worker-0/WARN] [KubeJS/]: Plugin dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin does not load on server side, skipping
+[30Dec2024 19:10:43.761] [modloading-worker-0/WARN] [KubeJS/]: Plugin dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration does not have required mod gamestages loaded, skipping
+[30Dec2024 19:10:43.762] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[30Dec2024 19:10:43.763] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[30Dec2024 19:10:43.764] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source palladium
+[30Dec2024 19:10:43.840] [modloading-worker-0/INFO] [KubeJS/]: Done in 109.1 ms
+[30Dec2024 19:10:44.125] [modloading-worker-0/ERROR] [net.minecraft.server.packs.AbstractPackResources/]: Couldn't load pack metadata
+com.google.gson.JsonSyntaxException: Missing pack_format, expected to find a Int
+	at net.minecraft.util.GsonHelper.m_13927_(GsonHelper.java:277) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.minecraft.server.packs.metadata.pack.PackMetadataSectionSerializer.m_6322_(PackMetadataSectionSerializer.java:15) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.minecraft.server.packs.metadata.pack.PackMetadataSectionSerializer.m_6322_(PackMetadataSectionSerializer.java:9) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.minecraft.server.packs.AbstractPackResources.m_10214_(AbstractPackResources.java:52) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.minecraft.server.packs.AbstractPackResources.m_5550_(AbstractPackResources.java:33) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.minecraft.server.packs.repository.Pack.m_246334_(Pack.java:60) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.minecraft.server.packs.repository.Pack.m_245429_(Pack.java:35) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.threetag.palladium.addonpack.forge.AddonPackManagerImpl$ModPackSource.m_7686_(AddonPackManagerImpl.java:49) ~[palladium-4.1.7+1.20.1-forge.jar%23140!/:4.1.7+1.20.1]
+	at net.minecraft.server.packs.repository.PackRepository.m_10526_(PackRepository.java:39) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.minecraft.server.packs.repository.PackRepository.m_10506_(PackRepository.java:31) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at dev.latvian.mods.kubejs.script.ScriptManager.handler$zib000$loadFromDirectory(ScriptManager.java:537) ~[kubejs-forge-2001.6.5-build.16.jar%23137!/:2001.6.5-build.16]
+	at dev.latvian.mods.kubejs.script.ScriptManager.loadFromDirectory(ScriptManager.java:150) ~[kubejs-forge-2001.6.5-build.16.jar%23137!/:2001.6.5-build.16]
+	at dev.latvian.mods.kubejs.script.ScriptManager.reload(ScriptManager.java:72) ~[kubejs-forge-2001.6.5-build.16.jar%23137!/:2001.6.5-build.16]
+	at dev.latvian.mods.kubejs.KubeJS.<init>(KubeJS.java:137) ~[kubejs-forge-2001.6.5-build.16.jar%23137!/:2001.6.5-build.16]
+	at dev.latvian.mods.kubejs.forge.KubeJSForge.<init>(KubeJSForge.java:51) ~[kubejs-forge-2001.6.5-build.16.jar%23137!/:2001.6.5-build.16]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.20.1-47.3.7.jar%23151!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.3.7.jar%23150!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[30Dec2024 19:10:44.127] [modloading-worker-0/WARN] [net.minecraft.server.packs.repository.Pack/]: Missing metadata in pack mod:minecraft
+[30Dec2024 19:10:44.249] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Loading Rhino Minecraft remapper...
+[30Dec2024 19:10:44.256] [modloading-worker-0/INFO] [dev.latvian.mods.rhino.mod.util.RhinoProperties/]: Rhino properties loaded.
+[30Dec2024 19:10:44.264] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Loading mappings for 1.20.1
+[30Dec2024 19:10:44.543] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Done in 0.293 s
+[30Dec2024 19:10:45.012] [modloading-worker-0/INFO] [KubeJS Startup/]: example.js#5: Hello, World! (Loaded startup scripts)
+[30Dec2024 19:10:45.014] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:example.js in 0.066 s
+[30Dec2024 19:10:45.024] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_grave.core:kubejs_scripts/wall_climb_move_condition.js in 0.01 s
+[30Dec2024 19:10:45.027] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_grave.core:kubejs_scripts/wall_climb_condition.js in 0.002 s
+[30Dec2024 19:10:45.048] [modloading-worker-0/INFO] [KubeJS Startup/]: addonpack_grave.core:kubejs_scripts/wall_climb.js#2: Loaded Java class 'net.minecraft.network.protocol.game.ClientboundSetEntityMotionPacket'
+[30Dec2024 19:10:45.048] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_grave.core:kubejs_scripts/wall_climb.js in 0.021 s
+[30Dec2024 19:10:45.049] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_grave.core:kubejs_scripts/uuid_condition.js in 0.0 s
+[30Dec2024 19:10:45.053] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_grave.core:kubejs_scripts/store_armour.js in 0.003 s
+[30Dec2024 19:10:45.057] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_grave.core:kubejs_scripts/stone_index.js in 0.004 s
+[30Dec2024 19:10:45.059] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_grave.core:kubejs_scripts/stone_detection.js in 0.002 s
+[30Dec2024 19:10:45.062] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_grave.core:kubejs_scripts/sonic_deafening.js in 0.002 s
+[30Dec2024 19:10:45.066] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_grave.core:kubejs_scripts/snazzier_attribute_ability.js in 0.002 s
+[30Dec2024 19:10:45.066] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_grave.core:kubejs_scripts/shock_effect.js in 0.0 s
+[30Dec2024 19:10:45.072] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_grave.core:kubejs_scripts/projectile_script.js in 0.005 s
+[30Dec2024 19:10:45.073] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_grave.core:kubejs_scripts/movement.js in 0.0 s
+[30Dec2024 19:10:45.075] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_grave.core:kubejs_scripts/month_condition.js in 0.0 s
+[30Dec2024 19:10:45.075] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_grave.core:kubejs_scripts/main_hand_condition.js in 0.0 s
+[30Dec2024 19:10:45.088] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_grave.core:kubejs_scripts/items.js in 0.01 s
+[30Dec2024 19:10:45.095] [modloading-worker-0/INFO] [KubeJS Startup/]: addonpack_grave.core:kubejs_scripts/get_energy_condition.js#2: Loaded Java class 'net.threetag.palladium.compat.curiostinkets.CuriosTrinketsUtil'
+[30Dec2024 19:10:45.100] [modloading-worker-0/INFO] [KubeJS Startup/]: addonpack_grave.core:kubejs_scripts/get_energy_condition.js#3: Loaded Java class 'net.threetag.palladium.energy.EnergyHelper'
+[30Dec2024 19:10:45.100] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_grave.core:kubejs_scripts/get_energy_condition.js in 0.012 s
+[30Dec2024 19:10:45.102] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_grave.core:kubejs_scripts/freeze_effect.js in 0.001 s
+[30Dec2024 19:10:45.104] [modloading-worker-0/INFO] [KubeJS Startup/]: addonpack_grave.core:kubejs_scripts/effect_condition.js#6: Loaded Java class 'net.minecraft.core.registries.BuiltInRegistries'
+[30Dec2024 19:10:45.108] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_grave.core:kubejs_scripts/effect_condition.js in 0.003 s
+[30Dec2024 19:10:45.124] [modloading-worker-0/INFO] [KubeJS Startup/]: addonpack_grave.core:kubejs_scripts/dynamic_pehkui_scale.js#1: Loaded Java class 'net.threetag.palladium.util.SizeUtil'
+[30Dec2024 19:10:45.125] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_grave.core:kubejs_scripts/dynamic_pehkui_scale.js in 0.017 s
+[30Dec2024 19:10:45.127] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_grave.core:kubejs_scripts/drain_per_tick.js in 0.002 s
+[30Dec2024 19:10:45.131] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_grave.core:kubejs_scripts/date_condition.js in 0.001 s
+[30Dec2024 19:10:45.132] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_grave.core:kubejs_scripts/burning_effect.js in 0.001 s
+[30Dec2024 19:10:45.139] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_grave.core:kubejs_scripts/blocks.js in 0.007 s
+[30Dec2024 19:10:45.141] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script addonpack_grave.core:kubejs_scripts/aoe_damage.js in 0.001 s
+[30Dec2024 19:10:45.144] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded 25/25 KubeJS startup scripts in 0.571 s with 0 errors and 0 warnings
+[30Dec2024 19:10:45.236] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+[30Dec2024 19:10:45.292] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id kubejs:send_data_from_client
+[30Dec2024 19:10:45.296] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id kubejs:first_click
+[30Dec2024 19:10:45.312] [main/INFO] [net.threetag.palladium.Palladium/]: Starting addonpack initialisation...
+[30Dec2024 19:10:45.313] [main/ERROR] [net.minecraft.server.packs.AbstractPackResources/]: Couldn't load pack metadata
+com.google.gson.JsonSyntaxException: Missing pack_format, expected to find a Int
+	at net.minecraft.util.GsonHelper.m_13927_(GsonHelper.java:277) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.minecraft.server.packs.metadata.pack.PackMetadataSectionSerializer.m_6322_(PackMetadataSectionSerializer.java:15) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.minecraft.server.packs.metadata.pack.PackMetadataSectionSerializer.m_6322_(PackMetadataSectionSerializer.java:9) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.minecraft.server.packs.AbstractPackResources.m_10214_(AbstractPackResources.java:52) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.minecraft.server.packs.AbstractPackResources.m_5550_(AbstractPackResources.java:33) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.minecraft.server.packs.repository.Pack.m_246334_(Pack.java:60) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.minecraft.server.packs.repository.Pack.m_245429_(Pack.java:35) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.threetag.palladium.addonpack.forge.AddonPackManagerImpl$ModPackSource.m_7686_(AddonPackManagerImpl.java:49) ~[palladium-4.1.7+1.20.1-forge.jar%23140!/:4.1.7+1.20.1]
+	at net.minecraft.server.packs.repository.PackRepository.m_10526_(PackRepository.java:39) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.minecraft.server.packs.repository.PackRepository.m_10506_(PackRepository.java:31) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.threetag.palladium.addonpack.AddonPackManager.beginLoading(AddonPackManager.java:136) ~[palladium-4.1.7+1.20.1-forge.jar%23140!/:4.1.7+1.20.1]
+	at net.threetag.palladium.addonpack.AddonPackManager.startLoading(AddonPackManager.java:54) ~[palladium-4.1.7+1.20.1-forge.jar%23140!/:4.1.7+1.20.1]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at net.minecraftforge.fml.DeferredWorkQueue.lambda$makeRunnable$2(DeferredWorkQueue.java:81) ~[fmlcore-1.20.1-47.3.7.jar%23150!/:?]
+	at net.minecraftforge.fml.DeferredWorkQueue.makeRunnable(DeferredWorkQueue.java:76) ~[fmlcore-1.20.1-47.3.7.jar%23150!/:?]
+	at net.minecraftforge.fml.DeferredWorkQueue.lambda$runTasks$0(DeferredWorkQueue.java:60) ~[fmlcore-1.20.1-47.3.7.jar%23150!/:?]
+	at java.util.concurrent.ConcurrentLinkedDeque.forEach(ConcurrentLinkedDeque.java:1650) ~[?:?]
+	at net.minecraftforge.fml.DeferredWorkQueue.runTasks(DeferredWorkQueue.java:60) ~[fmlcore-1.20.1-47.3.7.jar%23150!/:?]
+	at net.minecraftforge.fml.core.ParallelTransition.lambda$finalActivityGenerator$2(ParallelTransition.java:35) ~[forge-1.20.1-47.3.7-universal.jar%23154!/:?]
+	at java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraftforge.fml.ModWorkManager$SyncExecutor.driveOne(ModWorkManager.java:43) ~[fmlcore-1.20.1-47.3.7.jar%23150!/:?]
+	at net.minecraftforge.fml.ModWorkManager$DrivenExecutor.drive(ModWorkManager.java:28) ~[fmlcore-1.20.1-47.3.7.jar%23150!/:?]
+	at net.minecraftforge.fml.ModLoader.waitForTransition(ModLoader.java:224) ~[fmlcore-1.20.1-47.3.7.jar%23150!/:?]
+	at net.minecraftforge.fml.ModLoader.lambda$dispatchAndHandleError$20(ModLoader.java:210) ~[fmlcore-1.20.1-47.3.7.jar%23150!/:?]
+	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:210) ~[fmlcore-1.20.1-47.3.7.jar%23150!/:?]
+	at net.minecraftforge.fml.ModLoader.lambda$gatherAndInitializeMods$13(ModLoader.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23150!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23150!/:?]
+	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:30) ~[forge-1.20.1-47.3.7-universal.jar%23154!/:?]
+	at net.minecraft.server.Main.main(Main.java:125) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[30Dec2024 19:10:45.315] [main/WARN] [net.minecraft.server.packs.repository.Pack/]: Missing metadata in pack mod:minecraft
+[30Dec2024 19:10:45.321] [main/INFO] [net.threetag.palladium.Palladium/]: Skipping mod:appleskin as it's not been marked as an addonpack
+[30Dec2024 19:10:45.322] [main/ERROR] [net.threetag.palladium.Palladium/]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[30Dec2024 19:10:45.324] [main/INFO] [net.threetag.palladium.Palladium/]: Skipping mod:architectury as it's not been marked as an addonpack
+[30Dec2024 19:10:45.324] [main/ERROR] [net.threetag.palladium.Palladium/]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[30Dec2024 19:10:45.325] [main/INFO] [net.threetag.palladium.Palladium/]: Skipping mod:awesomedungeon as it's not been marked as an addonpack
+[30Dec2024 19:10:45.325] [main/ERROR] [net.threetag.palladium.Palladium/]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[30Dec2024 19:10:45.325] [main/INFO] [net.threetag.palladium.Palladium/]: Skipping mod:balm as it's not been marked as an addonpack
+[30Dec2024 19:10:45.325] [main/ERROR] [net.threetag.palladium.Palladium/]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[30Dec2024 19:10:45.325] [main/INFO] [net.threetag.palladium.Palladium/]: Skipping mod:clayblasting as it's not been marked as an addonpack
+[30Dec2024 19:10:45.326] [main/ERROR] [net.threetag.palladium.Palladium/]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[30Dec2024 19:10:45.326] [main/INFO] [net.threetag.palladium.Palladium/]: Skipping mod:conjurer_illager as it's not been marked as an addonpack
+[30Dec2024 19:10:45.326] [main/ERROR] [net.threetag.palladium.Palladium/]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[30Dec2024 19:10:45.326] [main/INFO] [net.threetag.palladium.Palladium/]: Skipping mod:dungeoncrawl as it's not been marked as an addonpack
+[30Dec2024 19:10:45.326] [main/ERROR] [net.threetag.palladium.Palladium/]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[30Dec2024 19:10:45.327] [main/INFO] [net.threetag.palladium.Palladium/]: Skipping mod:farmersdelight as it's not been marked as an addonpack
+[30Dec2024 19:10:45.327] [main/ERROR] [net.threetag.palladium.Palladium/]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[30Dec2024 19:10:45.327] [main/INFO] [net.threetag.palladium.Palladium/]: Skipping mod:forge as it's not been marked as an addonpack
+[30Dec2024 19:10:45.327] [main/ERROR] [net.threetag.palladium.Palladium/]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[30Dec2024 19:10:45.327] [main/INFO] [net.threetag.palladium.Palladium/]: Skipping mod:geckolib as it's not been marked as an addonpack
+[30Dec2024 19:10:45.327] [main/ERROR] [net.threetag.palladium.Palladium/]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[30Dec2024 19:10:45.334] [main/INFO] [net.threetag.palladium.Palladium/]: Skipping mod:ironchest as it's not been marked as an addonpack
+[30Dec2024 19:10:45.335] [main/ERROR] [net.threetag.palladium.Palladium/]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[30Dec2024 19:10:45.335] [main/INFO] [net.threetag.palladium.Palladium/]: Skipping mod:jei as it's not been marked as an addonpack
+[30Dec2024 19:10:45.335] [main/ERROR] [net.threetag.palladium.Palladium/]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[30Dec2024 19:10:45.335] [main/INFO] [net.threetag.palladium.Palladium/]: Skipping mod:journeymap as it's not been marked as an addonpack
+[30Dec2024 19:10:45.336] [main/ERROR] [net.threetag.palladium.Palladium/]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[30Dec2024 19:10:45.336] [main/INFO] [net.threetag.palladium.Palladium/]: Skipping mod:kubejs as it's not been marked as an addonpack
+[30Dec2024 19:10:45.336] [main/ERROR] [net.threetag.palladium.Palladium/]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[30Dec2024 19:10:45.336] [main/INFO] [net.threetag.palladium.Palladium/]: Skipping mod:kuma_api as it's not been marked as an addonpack
+[30Dec2024 19:10:45.336] [main/ERROR] [net.threetag.palladium.Palladium/]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[30Dec2024 19:10:45.337] [main/INFO] [net.threetag.palladium.Palladium/]: Skipping mod:libraryferret as it's not been marked as an addonpack
+[30Dec2024 19:10:45.337] [main/ERROR] [net.threetag.palladium.Palladium/]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[30Dec2024 19:10:45.337] [main/INFO] [net.threetag.palladium.Palladium/]: Skipping mod:mixinextras as it's not been marked as an addonpack
+[30Dec2024 19:10:45.337] [main/ERROR] [net.threetag.palladium.Palladium/]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[30Dec2024 19:10:45.337] [main/INFO] [net.threetag.palladium.Palladium/]: Skipping mod:mousetweaks as it's not been marked as an addonpack
+[30Dec2024 19:10:45.337] [main/ERROR] [net.threetag.palladium.Palladium/]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[30Dec2024 19:10:45.338] [main/INFO] [net.threetag.palladium.Palladium/]: Skipping mod:palladium as it's not been marked as an addonpack
+[30Dec2024 19:10:45.338] [main/ERROR] [net.threetag.palladium.Palladium/]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[30Dec2024 19:10:45.338] [main/INFO] [net.threetag.palladium.Palladium/]: Skipping mod:palladiumcore as it's not been marked as an addonpack
+[30Dec2024 19:10:45.338] [main/ERROR] [net.threetag.palladium.Palladium/]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[30Dec2024 19:10:45.338] [main/INFO] [net.threetag.palladium.Palladium/]: Skipping mod:pehkui as it's not been marked as an addonpack
+[30Dec2024 19:10:45.338] [main/ERROR] [net.threetag.palladium.Palladium/]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[30Dec2024 19:10:45.338] [main/INFO] [net.threetag.palladium.Palladium/]: Skipping mod:playeranimator as it's not been marked as an addonpack
+[30Dec2024 19:10:45.338] [main/ERROR] [net.threetag.palladium.Palladium/]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[30Dec2024 19:10:45.339] [main/INFO] [net.threetag.palladium.Palladium/]: Skipping mod:rhino as it's not been marked as an addonpack
+[30Dec2024 19:10:45.339] [main/ERROR] [net.threetag.palladium.Palladium/]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[30Dec2024 19:10:45.339] [main/INFO] [net.threetag.palladium.Palladium/]: Skipping mod:securitycraft as it's not been marked as an addonpack
+[30Dec2024 19:10:45.339] [main/ERROR] [net.threetag.palladium.Palladium/]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[30Dec2024 19:10:45.339] [main/INFO] [net.threetag.palladium.Palladium/]: Skipping mod:structure_gel as it's not been marked as an addonpack
+[30Dec2024 19:10:45.339] [main/ERROR] [net.threetag.palladium.Palladium/]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[30Dec2024 19:10:45.339] [main/INFO] [net.threetag.palladium.Palladium/]: Skipping mod:travelersbackpack as it's not been marked as an addonpack
+[30Dec2024 19:10:45.340] [main/ERROR] [net.threetag.palladium.Palladium/]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[30Dec2024 19:10:45.340] [main/INFO] [net.threetag.palladium.Palladium/]: Skipping mod:treechop as it's not been marked as an addonpack
+[30Dec2024 19:10:45.340] [main/ERROR] [net.threetag.palladium.Palladium/]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[30Dec2024 19:10:45.340] [main/INFO] [net.threetag.palladium.Palladium/]: Skipping mod:waystones as it's not been marked as an addonpack
+[30Dec2024 19:10:45.340] [main/ERROR] [net.threetag.palladium.Palladium/]: Cannot invoke "net.threetag.palladium.addonpack.PackData.getId()" because "packData" is null
+[30Dec2024 19:10:45.343] [main/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: appleskin-forge-mc1.20.1-2.5.1.jar, architectury-9.2.14-forge.jar, awesomedungeon-forge-1.20.1-3.2.0.jar, balm-forge-1.20.1-7.3.10-all.jar, clayblasting-1.20.1-0-forge.jar, the-conjurer-1.20.1-1.1.6.jar, Dungeon Crawl-1.20.1-2.3.14.jar, FarmersDelight-1.20.1-1.2.6.jar, forge-1.20.1-47.3.7-universal.jar, geckolib-forge-1.20.1-4.7.jar, Gravestone Core 1.0.6.jar, ironchest-1.20.1-14.4.4.jar, jei-1.20.1-forge-15.20.0.105.jar, journeymap-1.20.1-5.10.3-forge.jar, kubejs-forge-2001.6.5-build.16.jar, kuma-api-forge-20.1.9-SNAPSHOT.jar, libraryferret-forge-1.20.1-4.0.0.jar, mixinextras-forge-0.3.6.jar, MouseTweaks-forge-mc1.20.1-2.25.1.jar, palladium-4.1.7+1.20.1-forge.jar, palladiumcore-forge-1.0.1+1.20.1-forge.jar, Pehkui-3.8.2+1.20.1-forge.jar, player-animation-lib-forge-1.0.2-rc1+1.20.jar, rhino-forge-2001.2.3-build.6.jar, [1.20.1] SecurityCraft v1.9.12 (1).jar, structure_gel-1.20.1-2.16.2.jar, travelersbackpack-forge-1.20.1-9.1.16.jar, TreeChop-1.20.1-forge-0.19.0-fixed.jar, waystones-forge-1.20-14.1.6.jar
+[30Dec2024 19:10:45.367] [main/INFO] [net.threetag.palladium.Palladium/]: Registered 0 addonpack creative_mode_tab
+[30Dec2024 19:10:45.371] [main/INFO] [net.threetag.palladium.Palladium/]: Registered 2 addonpack armor materials
+[30Dec2024 19:10:45.372] [main/INFO] [net.threetag.palladium.Palladium/]: Registered 0 addonpack tool tiers
+[30Dec2024 19:10:45.376] [main/INFO] [net.threetag.palladium.Palladium/]: Registered 2 addonpack block
+[30Dec2024 19:10:45.378] [main/INFO] [net.threetag.palladium.Palladium/]: Registered 37 addonpack item
+[30Dec2024 19:10:45.378] [main/INFO] [net.threetag.palladium.Palladium/]: Registered 0 addonpack suit_set
+[30Dec2024 19:10:45.378] [main/INFO] [net.threetag.palladium.Palladium/]: Registered 0 addonpack particle_type
+[30Dec2024 19:10:45.379] [main/INFO] [net.threetag.palladium.Palladium/]: Registered 0 addonpack point_of_interest_type
+[30Dec2024 19:10:45.379] [main/INFO] [net.threetag.palladium.Palladium/]: Registered 0 addonpack villager_profession
+[30Dec2024 19:10:45.380] [main/INFO] [net.threetag.palladium.Palladium/]: Registered 0 addonpack accessory slots
+[30Dec2024 19:10:45.380] [main/INFO] [net.threetag.palladium.Palladium/]: Registered 0 addonpack accessories
+[30Dec2024 19:10:45.381] [main/INFO] [net.threetag.palladium.Palladium/]: Finished addonpack initialisation!
+[30Dec2024 19:10:45.578] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: The object net.minecraft.sounds.SoundEvent@7033c58a has been registered twice for the same name treechop:chop_wood.
+[30Dec2024 19:10:46.957] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:loot_table_alias
+[30Dec2024 19:10:46.966] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:data_handler_type
+[30Dec2024 19:10:46.968] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:dynamic_spawner
+[30Dec2024 19:10:46.970] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:jigsaw_type
+[30Dec2024 19:10:47.464] [modloading-worker-0/INFO] [Dungeon Crawl/]: Common Setup
+[30Dec2024 19:10:47.476] [Modding Legacy/conjurer_illager/Supporters thread/INFO] [ModdingLegacy/conjurer_illager/Supporter/]: Attempting to load the Modding Legacy supporters list from https://moddinglegacy.com/supporters-changelogs/supporters.txt
+[30Dec2024 19:10:47.615] [main/INFO] [journeymap/]: Initializing Packet Registries
+[30Dec2024 19:10:47.664] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
+[30Dec2024 19:10:47.665] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
+[30Dec2024 19:10:47.668] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
+[30Dec2024 19:10:47.669] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
+[30Dec2024 19:10:48.251] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [conjurer_illager] Starting version check at http://changelogs.moddinglegacy.com/conjurer-illager.json
+[30Dec2024 19:10:48.950] [Modding Legacy/conjurer_illager/Supporters thread/INFO] [ModdingLegacy/conjurer_illager/Supporter/]: Successfully loaded the Modding Legacy supporters list.
+[30Dec2024 19:10:49.020] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [conjurer_illager] Found status: BETA Current: 1.1.6 Target: null
+[30Dec2024 19:10:49.021] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [palladium] Starting version check at https://squirrelcontrol.threetag.net/api/forge_updates/threetag-palladium
+[30Dec2024 19:10:50.031] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [palladium] Found status: UP_TO_DATE Current: 4.1.7 Target: null
+[30Dec2024 19:10:50.031] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[30Dec2024 19:10:50.319] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.3 Target: null
+[30Dec2024 19:10:50.320] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[30Dec2024 19:10:50.638] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[30Dec2024 19:10:50.759] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.9.12 Target: null
+[30Dec2024 19:10:50.763] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[30Dec2024 19:10:50.820] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: UP_TO_DATE Current: 9.1.16 Target: null
+[30Dec2024 19:10:50.821] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[30Dec2024 19:10:51.050] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.22
+[30Dec2024 19:10:51.050] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Starting version check at http://changelogs.moddinglegacy.com/structure-gel.json
+[30Dec2024 19:10:51.191] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Found status: BETA Current: 2.16.2 Target: null
+[30Dec2024 19:10:52.360] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/CGRL/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23149!/assets/.mcassetsroot' uses unexpected schema
+[30Dec2024 19:10:52.361] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/CGRL/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23149!/data/.mcassetsroot' uses unexpected schema
+[30Dec2024 19:10:52.361] [main/ERROR] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: File /addon/.mcassetsroot does not exist in classpath
+[30Dec2024 19:10:52.425] [main/ERROR] [net.minecraft.server.packs.AbstractPackResources/]: Couldn't load pack metadata
+com.google.gson.JsonSyntaxException: Missing pack_format, expected to find a Int
+	at net.minecraft.util.GsonHelper.m_13927_(GsonHelper.java:277) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.minecraft.server.packs.metadata.pack.PackMetadataSectionSerializer.m_6322_(PackMetadataSectionSerializer.java:15) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.minecraft.server.packs.metadata.pack.PackMetadataSectionSerializer.m_6322_(PackMetadataSectionSerializer.java:9) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.minecraft.server.packs.AbstractPackResources.m_10214_(AbstractPackResources.java:52) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.minecraft.server.packs.AbstractPackResources.m_5550_(AbstractPackResources.java:33) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.minecraft.server.packs.repository.Pack.m_246334_(Pack.java:60) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.minecraft.server.packs.repository.Pack.m_245429_(Pack.java:35) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.threetag.palladium.addonpack.forge.AddonPackManagerImpl$ModPackSource.m_7686_(AddonPackManagerImpl.java:49) ~[palladium-4.1.7+1.20.1-forge.jar%23140!/:4.1.7+1.20.1]
+	at net.minecraft.server.packs.repository.PackRepository.m_10526_(PackRepository.java:39) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.minecraft.server.packs.repository.PackRepository.m_10506_(PackRepository.java:31) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at dev.latvian.mods.kubejs.script.ScriptManager.handler$zib000$loadFromDirectory(ScriptManager.java:537) ~[kubejs-forge-2001.6.5-build.16.jar%23137!/:2001.6.5-build.16]
+	at dev.latvian.mods.kubejs.script.ScriptManager.loadFromDirectory(ScriptManager.java:150) ~[kubejs-forge-2001.6.5-build.16.jar%23137!/:2001.6.5-build.16]
+	at dev.latvian.mods.kubejs.script.ScriptManager.reload(ScriptManager.java:72) ~[kubejs-forge-2001.6.5-build.16.jar%23137!/:2001.6.5-build.16]
+	at dev.latvian.mods.kubejs.server.ServerScriptManager.wrapResourceManager(ServerScriptManager.java:85) ~[kubejs-forge-2001.6.5-build.16.jar%23137!/:2001.6.5-build.16]
+	at net.minecraft.server.WorldLoader$PackConfig.localvar$zki000$injectKubeJSPacks(WorldLoader.java:515) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.minecraft.server.WorldLoader$PackConfig.m_214399_(WorldLoader.java:80) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.minecraft.server.WorldLoader.m_214362_(WorldLoader.java:28) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.minecraft.server.Main.lambda$main$2(Main.java:167) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:777) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[30Dec2024 19:10:52.427] [main/WARN] [net.minecraft.server.packs.repository.Pack/]: Missing metadata in pack mod:minecraft
+[30Dec2024 19:10:52.458] [main/INFO] [KubeJS Server/]: example.js#5: Hello, World! (Loaded server scripts)
+[30Dec2024 19:10:52.459] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:example.js in 0.0 s
+[30Dec2024 19:10:52.459] [main/INFO] [KubeJS Server/]: Loaded 1/1 KubeJS server scripts in 0.021 s with 0 errors and 0 warnings
+[30Dec2024 19:10:52.459] [main/INFO] [KubeJS Server/]: Scripts loaded
+[30Dec2024 19:10:52.799] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeon:abandoned_oak_palace/start_pool`: { spacing: 50, separation: 25, salt: 1694767080, useValueFromConfiguration: true}
+[30Dec2024 19:10:52.801] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeon:better_default_jungle_temple/start_pool`: { spacing: 50, separation: 25, salt: 1654787080, useValueFromConfiguration: true}
+[30Dec2024 19:10:52.801] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeon:desert_temple_husk/start_pool`: { spacing: 50, separation: 25, salt: 1394767080, useValueFromConfiguration: true}
+[30Dec2024 19:10:52.802] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeon:jungle_giant_tree/start_pool`: { spacing: 50, separation: 25, salt: 1494763380, useValueFromConfiguration: true}
+[30Dec2024 19:10:52.803] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeon:mushroom_abandonned/start_pool`: { spacing: 50, separation: 25, salt: 1494227080, useValueFromConfiguration: true}
+[30Dec2024 19:10:52.804] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeon:swamp_big_temple/start_pool`: { spacing: 50, separation: 25, salt: 1594763280, useValueFromConfiguration: true}
+[30Dec2024 19:10:52.805] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeon:the_usine/start_pool`: { spacing: 50, separation: 25, salt: 1694767078, useValueFromConfiguration: true}
+[30Dec2024 19:10:52.805] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeon:t_z_tower/start_pool`: { spacing: 50, separation: 25, salt: 1794767078, useValueFromConfiguration: true}
+[30Dec2024 19:10:52.810] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeon:witch_castle/start_pool`: { spacing: 50, separation: 25, salt: 1894776078, useValueFromConfiguration: true}
+[30Dec2024 19:10:53.776] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag grave.core:oxygen as it is missing following references: ad_astra:oxygen (from Gravestone Core 1.0.6.jar)
+[30Dec2024 19:10:54.767] [main/INFO] [net.threetag.palladium.Palladium/]: Loaded 0 loot table modifications
+[30Dec2024 19:10:55.018] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 10 recipes
+[30Dec2024 19:10:55.019] [main/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag minecraft:load as it is missing following references: grave.core:load (from Gravestone Core 1.0.6.jar)
+[30Dec2024 19:10:55.195] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2511 advancements
+[30Dec2024 19:10:55.211] [main/INFO] [net.threetag.palladium.Palladium/]: Loaded 7 powers
+[30Dec2024 19:10:55.213] [main/INFO] [net.threetag.palladium.Palladium/]: Loaded 1 item powers
+[30Dec2024 19:10:55.213] [main/INFO] [net.threetag.palladium.Palladium/]: Loaded 0 suit set powers
+[30Dec2024 19:10:55.214] [main/INFO] [net.threetag.palladium.Palladium/]: Registered 2 objectives to be tracked
+[30Dec2024 19:10:55.214] [main/INFO] [Dungeon Crawl/]: Loading data...
+[30Dec2024 19:10:55.862] [main/INFO] [Dungeon Crawl/]: Done.
+[30Dec2024 19:10:55.886] [main/WARN] [net.minecraftforge.registries.NamespacedWrapper/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: c:ores
+[30Dec2024 19:10:57.322] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[30Dec2024 19:10:57.323] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[30Dec2024 19:10:57.324] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[30Dec2024 19:10:57.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[30Dec2024 19:10:57.523] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[30Dec2024 19:10:57.546] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[30Dec2024 19:10:57.636] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[30Dec2024 19:10:57.637] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[30Dec2024 19:10:57.637] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[30Dec2024 19:10:57.637] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[30Dec2024 19:10:57.665] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[30Dec2024 19:10:57.779] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[30Dec2024 19:11:03.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[30Dec2024 19:11:03.415] [Server thread/INFO] [KubeJS Server/]: Server resource reload complete!
+[30Dec2024 19:11:06.394] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Dec2024 19:11:06.432] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Dec2024 19:11:06.434] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Dec2024 19:11:06.434] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Dec2024 19:11:06.435] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Dec2024 19:11:06.436] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Dec2024 19:11:06.437] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Dec2024 19:11:06.933] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Dec2024 19:11:07.419] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Dec2024 19:11:07.916] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Dec2024 19:11:08.414] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Dec2024 19:11:08.915] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Dec2024 19:11:09.416] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Dec2024 19:11:09.915] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[30Dec2024 19:11:10.414] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 16%
+[30Dec2024 19:11:10.917] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 69%
+[30Dec2024 19:11:11.183] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 7770 ms
+[30Dec2024 19:11:11.185] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (13.530s)! For help, type "help"
+[30Dec2024 19:11:11.266] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[30Dec2024 19:15:31.359] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Punchlinee[/127.109.108.53:41629] logged in with entity id 82 at (439.04878056146805, 64.0, 49.82898501768117)
+[30Dec2024 19:15:31.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Punchlinee joined the game
+[30Dec2024 19:15:32.251] [Server thread/ERROR] [net.threetag.palladium.Palladium/]: Was not able to read user's supporter data! (2fe5e8cd-cc6d-3c0c-8ae1-8eec77b26ffa)
+[30Dec2024 19:15:34.206] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2850ms or 57 ticks behind
+[30Dec2024 19:20:03.639] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Punchlinee: Set the time to 1000]
+[30Dec2024 19:20:14.871] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Nitwit'/101, l='ServerLevel[world]', x=445.95, y=64.06, z=43.81] died, message: 'Nitwit was slain by Zombie'
