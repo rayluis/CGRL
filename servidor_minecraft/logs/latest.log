@@ -367,3 +367,5 @@ com.google.gson.JsonSyntaxException: Missing pack_format, expected to find a Int
 [30Dec2024 20:11:45.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheSandman01RD: Set own game mode to Survival Mode]
 [30Dec2024 20:12:08.189] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheSandman01RD: Set own game mode to Spectator Mode]
 [30Dec2024 20:13:21.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheSandman01RD: Set own game mode to Creative Mode]
+[30Dec2024 20:56:15.539] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheSandman01RD: Set own game mode to Survival Mode]
+[30Dec2024 20:56:17.540] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TheSandman01RD: Set own game mode to Creative Mode]
