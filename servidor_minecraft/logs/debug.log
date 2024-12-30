@@ -3396,3 +3396,7 @@ com.google.gson.JsonSyntaxException: Missing pack_format, expected to find a Int
 [30Dec2024 21:41:14.184] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [30Dec2024 21:41:22.045] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mprinxipe lost connection: Timed out
 [30Dec2024 21:41:22.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mprinxipe left the game
+[30Dec2024 21:46:14.166] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[30Dec2024 21:46:14.174] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[30Dec2024 21:51:14.159] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[30Dec2024 21:51:14.165] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
